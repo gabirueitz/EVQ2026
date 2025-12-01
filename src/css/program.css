@@ -1,6 +1,6 @@
 :root {
     --tb-color1: #85d0ff;
-    --tb-color2: #eaf8ff;
+    --tb-color2: #f4e0d0;
     --tb-color-hover: #778899;
 }
 
@@ -11,6 +11,7 @@
     -webkit-overflow-scrolling: touch;
 }
 .content .program-table table {
+    font-weight: 500;
     width: 100%;
     min-width: 800px;
     text-align: center;
@@ -39,7 +40,7 @@
     left: 0;
     z-index: 1;
     width: 60px;
-    font-weight: 600;
+    font-weight: 700;
     background-color: var(--tb-color1);
 }
 
