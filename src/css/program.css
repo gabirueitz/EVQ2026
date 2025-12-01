@@ -4,23 +4,28 @@
     --tb-color-hover: #778899;
 }
 
-main .content {
-	max-width: 900px;
-	height: 100%;
+.content .program-table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
-
 .content .program-table table {
     width: 100%;
+    min-width: 800px;
     text-align: center;
     user-select: none;
 }
 
-.content .program-table table th {
+.content .program-table table th, td {
     padding: 5px;
+    white-space: nowrap;
+}
+
+.content .program-table table th {
     background-color: var(--tb-color1);
 }
 .content .program-table table td {
-    padding: 5px;
     background-color: var(--tb-color2);
 }
 
@@ -30,6 +35,9 @@ main .content {
 }
 
 .content .program-table table .stick-column {
+    position: sticky;
+    left: 0;
+    z-index: 1;
     width: 60px;
     font-weight: 600;
     background-color: var(--tb-color1);
