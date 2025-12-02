@@ -1,46 +1,47 @@
 :root {
-    --tb-color1: #85d0ff;
-    --tb-color2: #f4e0d0;
-    --tb-color-hover: #778899;
+  --tb-color1: #85d0ff;
+  --tb-color2: #f4e0d0;
+  --tb-color-hover: #778899;
 }
 
 .content .program-table {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .content .program-table table {
-    font-weight: 500;
-    width: 100%;
-    min-width: 800px;
-    text-align: center;
-    user-select: none;
+  font-weight: 500;
+  width: 100%;
+  min-width: 800px;
+  text-align: center;
+  user-select: none;
 }
 
-.content .program-table table th, td {
-    padding: 5px;
-    white-space: nowrap;
+.content .program-table table th,
+td {
+  padding: 5px;
+  white-space: nowrap;
 }
 
 .content .program-table table th {
-    background-color: var(--tb-color1);
+  background-color: var(--tb-color1);
 }
 .content .program-table table td {
-    background-color: var(--tb-color2);
+  background-color: var(--tb-color2);
 }
 
-.content .program-table table th, td {
-    width: 165px;
-    height: 40px;
+.content .program-table table th,
+td {
+  width: 165px;
+  height: 40px;
 }
 
 .content .program-table table .stick-column {
-    position: sticky;
-    left: 0;
-    z-index: 1;
-    width: 60px;
-    font-weight: 700;
-    background-color: var(--tb-color1);
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  font-weight: 700;
+  background-color: var(--tb-color1);
 }
-

@@ -1,35 +1,35 @@
 .content .sponsor-grid {
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .content .sponsor-grid .sponsor-card {
-    background-color: #ffffff60;
-    padding: 15px;
-    border-radius: 10px;
-    width: 180px;
-    transition: all 0.7s ease-in-out;
+  background-color: #ffffff60;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  transition: all 0.7s ease-in-out;
 }
 
 .content .sponsor-grid .sponsor-card:hover .sponsor-logo {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.content .sponsor-grid .sponsor-card .sponsor-logo{
-    height: 150px;
-    width: 150px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.content .sponsor-grid .sponsor-card .sponsor-logo {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content .sponsor-grid .sponsor-card h3 {
-    font-size: 1.2em;
-    text-align: center;
-    margin-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
 }

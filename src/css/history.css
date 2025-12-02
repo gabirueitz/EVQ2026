@@ -1,0 +1,54 @@
+main .content .fotos {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+main .content .fotos:nth-child(2) {
+  max-width: 250px;
+}
+
+main .content .fotos img {
+  width: 100%;
+  height: auto;
+}
+
+main .content .abroad-table {
+  text-align: center;
+  overflow-x: auto;
+  margin: 25px auto;
+}
+
+main .content .abroad-table table {
+  width: 100%;
+  margin-top: 0.8em;
+}
+
+main .content .abroad-table th, td {
+  height: 2em;
+  text-align: center;
+}
+
+main .content .abroad-table th {
+  background-color: #99999940;
+}
+
+main .content .abroad-table tr:nth-child(odd) td {
+  background-color: #99999910;
+}
+
+main .content .abroad-table tr:nth-child(even) td {
+  background-color: #99999920;
+}
+
+main .content .publi-list {
+  list-style-type: disc;
+  margin-left: 5em;
+}
+
+main .content .publi-list li {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: justify;
+  margin: 0.8em 0;
+}
