@@ -4,13 +4,14 @@
   --tb-color-hover: #778899;
 }
 
-.content .program-table {
+main .content .program-table {
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-.content .program-table table {
+
+main .content .program-table table {
   font-weight: 500;
   width: 100%;
   min-width: 800px;
@@ -18,30 +19,52 @@
   user-select: none;
 }
 
-.content .program-table table th,
+main .content .program-table table th,
 td {
   padding: 5px;
   white-space: nowrap;
 }
 
-.content .program-table table th {
+main .content .program-table table th {
   background-color: var(--tb-color1);
 }
-.content .program-table table td {
+
+main .content .program-table table td {
   background-color: var(--tb-color2);
 }
 
-.content .program-table table th,
+main .content .program-table table th,
 td {
   width: 165px;
   height: 40px;
 }
 
-.content .program-table table .stick-column {
+main .content .program-table table .stick-column {
   position: sticky;
   left: 0;
   z-index: 1;
   width: 60px;
   font-weight: 700;
   background-color: var(--tb-color1);
+}
+
+main .content .more-info {
+  margin-top: 30px;
+  font-size: 1em;
+  text-align: justify;
+}
+
+main .content .more-info h2 {
+  margin: 20px;
+}
+main .content .more-info h3 {
+  line-height: 1.6em;
+}
+
+main .content .more-info p {
+  margin: 5px 0;
+}
+
+main .content .more-info .info-card {
+  margin-bottom: 50px;
 }

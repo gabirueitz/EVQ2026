@@ -5,6 +5,11 @@
   --secondary-color: #f58220;
   --tertiary-color: #2e3133;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100dvh;
   font-family: "Open Sans", sans-serif;
