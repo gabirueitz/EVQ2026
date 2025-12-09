@@ -37,6 +37,7 @@ main .content .buttons .button:active {
 }
 
 main .content .mapa {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
