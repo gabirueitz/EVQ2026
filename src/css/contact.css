@@ -1,0 +1,42 @@
+main .content .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+main .content .buttons .button {
+  display: inline-block;
+  padding: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+main .content .buttons .button i {
+  margin-right: 8px;
+  font-size: 2em;
+}
+
+main .content .buttons .button span {
+  font-size: 1.4em;
+  margin-right: 8px;
+}
+
+main .content .buttons .button:hover {
+  background-color: var(--secondary-color);
+}
+
+main .content .buttons .button:active {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transform: translateY(2px);
+}
+
+main .content .mapa {
+    display: flex;
+    justify-content: center;
+}

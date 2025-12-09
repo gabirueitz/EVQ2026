@@ -34,6 +34,15 @@ main .content .program-table table td {
   background-color: var(--tb-color2);
 }
 
+main .content .program-table table td a:hover {
+  color: var(--tb-color-hover);
+  font-size: 1.11em;
+}
+
+main .content .program-table table td a abbr {
+  text-decoration: none;
+}
+
 main .content .program-table table th,
 td {
   width: 165px;
